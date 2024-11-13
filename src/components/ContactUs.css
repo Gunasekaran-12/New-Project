@@ -1,0 +1,42 @@
+.contact-us-container {
+    padding: 20px;
+    text-align: center;
+    background-color: antiquewhite;
+  }
+  
+  .contact-us-container form {
+    max-width: 500px;
+    margin: auto;
+  }
+  
+  .contact-us-container label {
+    display: block;
+    margin: 10px 0;
+  }
+  
+  .contact-us-container input, 
+  .contact-us-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+  }
+  
+  .contact-us-container button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .contact-us-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .back-to-inventory-link {
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #007bff;
+  }
+  

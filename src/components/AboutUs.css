@@ -1,0 +1,16 @@
+.about-us-container {
+    padding: 20px;
+    text-align: center;
+    background-color: black;
+    color: white;
+  }
+  
+  .back-to-inventory-link {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color:yellow;
+    font-weight:bolder;
+    font-size:50px;
+  }
+  

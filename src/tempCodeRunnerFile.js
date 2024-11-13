@@ -13,23 +13,11 @@ function App() {
         <Route path="/" element={<Login/>} />
         <Route path="/inventory" element={<Inventory/>} />
         <Route path="/cart-summary" element={<CartSummaryPage/>} />
-        <Route path="/about-us" element={<AboutUs/>} />
-        <Route path="/contact-us" element={<ContactUs/>}/>
+        <Route path="/about-us" element={<AboutUs/>} /> {/* About Us Route */}
+        <Route path="/contact-us" element={<ContactUs/>} /> {/* Contact Us Route */}
       </Routes>
     </Router>
   );
 }
 
 export default App;
-{/*
-import React from 'react';
-import MenuIcon from './components/menuIcon';
-function App() {
-  return (
-          <div>
-            <MenuIcon/>
-          </div>
-  );
-}
-
-export default App;*/}

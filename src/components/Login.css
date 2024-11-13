@@ -1,0 +1,115 @@
+/* Login.css */
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("https://cdn.sanity.io/images/0vv8moc6/pharmtech/64e01bf1f7dbd9099e249e9c3247fdbb9a46b4b1-1280x720.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.login-box {
+  width: 300px;
+  padding: 40px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  transform-style: preserve-3d;
+  transition: transform 0.1s;
+}
+
+.login-box:hover {
+  transform: rotateY(360deg);
+}
+
+.login-box input {            /* Username input */ 
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.2);
+  color: #1000f4;           /*Guna*/
+  font-size: 16px;
+  transition: background 0.3s ease, transform 0.5s ease;
+  position: relative;
+  z-index: 1;
+}
+
+.login-box input:focus {
+  background: rgba(255, 255, 255, 0.5);
+  transform: scale(1.1);
+  box-shadow: 0 0 10px #ff084e;
+}
+
+.login-box input:hover {
+  background: rgba(255, 255, 255, 0.4);
+  transform: scale(1.1);
+  box-shadow: 0 0 20px #e9f905, 0 0 20px #eeff00;
+  border-radius: 10px;
+}
+
+.login-box button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background: #2575fc;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.5s ease;
+}
+
+.login-box button:hover {
+  background: #00fffb;
+  transform: scale(1.2); /*rotateZ(10deg);*/
+  box-shadow: 0 0 20px #2cffed, 0 0 20px #2575fc;
+}
+
+.login-box button:focus {
+  /*transform: scale(1.2) rotateZ(-10deg);*/
+  box-shadow: 0 0 20px #00eeff, 0 0 20px #6a11cb;
+}
+
+/* Link styles */
+.toggle-link {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.toggle-link:hover {
+  color: #0400fa;
+  text-decoration: underline;
+}
+/* Sign In Circle Styles */
+.sign-in-circle {
+  display: inline-block;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 10px;
+  margin-left: 10px;
+  text-align: center;
+  width: 40px;  /* Adjust size as needed */
+  height: 40px; /* Adjust size as needed */
+  line-height: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.sign-in-circle:hover {
+  background-color: rgb(126, 124, 124);
+}
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}

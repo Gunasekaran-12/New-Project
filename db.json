@@ -1,0 +1,200 @@
+{
+  "medicine": [
+    {
+      "id": "1",
+      "name": "Aspirin",
+      "rate": 10,
+      "image": "https://m.media-amazon.com/images/I/518EiFnQNwL._SY466_.jpg",
+      "stock": 28
+    },
+    {
+      "id": "2",
+      "name": "Amoxicillin",
+      "rate": 15,
+      "image": "https://m.media-amazon.com/images/I/71urZ0OmQvL._AC_UL480_FMwebp_QL65_.jpg",
+      "stock": 9
+    },
+    {
+      "id": "3",
+      "name": "Ibuprofen",
+      "rate": 20,
+      "image": "https://m.media-amazon.com/images/I/81pXdWfPkrL._AC_UL480_FMwebp_QL65_.jpg",
+      "stock": 4
+    },
+    {
+      "id": "4",
+      "name": "Paracetamol",
+      "rate": 5,
+      "image": "https://m.media-amazon.com/images/I/81JbkDm0UjL._AC_UL480_FMwebp_QL65_.jpg",
+      "stock": 37
+    },
+    {
+      "id": "5",
+      "name": "Lisinopril",
+      "rate": 25,
+      "image": "https://m.media-amazon.com/images/I/81HOeJgsz3L._AC_UL480_FMwebp_QL65_.jpg",
+      "stock": 4
+    },
+    {
+      "id": "6",
+      "name": "Metformin",
+      "rate": 30,
+      "image": "https://m.media-amazon.com/images/I/517H+SIFoOL._AC_UL480_FMwebp_QL65_.jpg",
+      "stock": 4
+    },
+    {
+      "id": "7",
+      "name": "Omeprazole",
+      "rate": 18,
+      "image": "https://m.media-amazon.com/images/I/71St717fsuL._AC_UL480_FMwebp_QL65_.jpg",
+      "stock": 2
+    },
+    {
+      "id": "8",
+      "name": "Simvastatin",
+      "rate": 22,
+      "image": "https://m.media-amazon.com/images/I/51U97QUX1UL._AC_UL480_FMwebp_QL65_.jpg",
+      "stock": 0
+    },
+    {
+      "id": "9",
+      "name": "Citalopram",
+      "rate": 15,
+      "image": "https://m.media-amazon.com/images/I/615hdH2e1pL._SX522_.jpg",
+      "stock": 3
+    },
+    {
+      "id": "10",
+      "name": "Atorvastatin",
+      "rate": 20,
+      "image": "https://m.media-amazon.com/images/I/41l-4AFIUtL._AC_UL480_FMwebp_QL65_.jpg",
+      "stock": 4
+    },
+    {
+      "id": "11",
+      "name": "Clopidogrel",
+      "rate": 18,
+      "image": "https://m.media-amazon.com/images/I/91zZVqvo1cL._AC_UL480_FMwebp_QL65_.jpg",
+      "stock": 3
+    },
+    {
+      "id": "12",
+      "name": "Doxycycline",
+      "rate": 25,
+      "image": "https://m.media-amazon.com/images/I/615Izgo3cEL._AC_UL480_FMwebp_QL65_.jpg",
+      "stock": 8
+    },
+    {
+      "id": "13",
+      "name": "Fluoxetine",
+      "rate": 22,
+      "image": "https://m.media-amazon.com/images/I/61hTebnFdRL._AC_UL480_FMwebp_QL65_.jpg",
+      "stock": null
+    },
+    {
+      "id": "14",
+      "name": "Gabapentin",
+      "rate": 10,
+      "image": "https://m.media-amazon.com/images/I/81CUUq3WsqL._AC_UL480_FMwebp_QL65_.jpg",
+      "stock": null
+    },
+    {
+      "id": "15",
+      "name": "Levothyroxine",
+      "rate": 20,
+      "image": "https://m.media-amazon.com/images/I/619sznFR0gL._AC_UL480_FMwebp_QL65_.jpg",
+      "stock": 17
+    },
+    {
+      "id": "17",
+      "name": "Metoprolol",
+      "rate": 15,
+      "image": "https://m.media-amazon.com/images/I/81rRLq1FUjL._AC_UL480_FMwebp_QL65_.jpg",
+      "stock": 8
+    },
+    {
+      "id": "18",
+      "name": "Naproxen",
+      "rate": 12,
+      "image": "https://m.media-amazon.com/images/I/71Ttw4swa5L._AC_UL960_FMwebp_QL65_.jpg",
+      "stock": 8
+    },
+    {
+      "id": "19",
+      "name": "Pantoprazole",
+      "rate": 8,
+      "image": "https://m.media-amazon.com/images/I/718gWSSsvHL._AC_UL480_FMwebp_QL65_.jpg",
+      "stock": 8
+    },
+    {
+      "id": "20",
+      "name": "Prednisone",
+      "rate": 18,
+      "image": "https://m.media-amazon.com/images/I/51d7FXw-8dL._AC_UL480_FMwebp_QL65_.jpg",
+      "stock": null
+    },
+    {
+      "id": "21",
+      "name": "Ranitidine",
+      "rate": 10,
+      "image": "https://m.media-amazon.com/images/I/61pYFrUbYfL._AC_UL480_FMwebp_QL65_.jpg",
+      "stock": 0
+    },
+    {
+      "id": "22",
+      "name": "Tamsulosin",
+      "rate": 15,
+      "image": "https://m.media-amazon.com/images/I/81vbNGrUM9L._AC_UL480_FMwebp_QL65_.jpg",
+      "stock": 7
+    },
+    {
+      "id": "23",
+      "name": "Warfarin",
+      "rate": 20,
+      "image": "https://m.media-amazon.com/images/I/51HdCKGR0eL._AC_UL480_FMwebp_QL65_.jpg",
+      "stock": 6
+    },
+    {
+      "id": "24",
+      "name": "Zolpidem",
+      "rate": 25,
+      "image": "https://m.media-amazon.com/images/I/61skiHKMnXL._AC_UL480_FMwebp_QL65_.jpg",
+      "stock": 5
+    },
+    {
+      "id": "25",
+      "name": "Azithromycin",
+      "rate": 20,
+      "image": "https://m.media-amazon.com/images/I/61woa4saNZL._AC_UL480_FMwebp_QL65_.jpg",
+      "stock": 1
+    },
+    {
+      "id": "26",
+      "name": "Benzonatate",
+      "rate": 12,
+      "image": "https://m.media-amazon.com/images/I/61Lik00tIyL.AC_UL480_FMwebp_QL65.jpg",
+      "stock": 5
+    },
+    {
+      "id": "27",
+      "name": "Cefalexin",
+      "rate": 15,
+      "image": "https://m.media-amazon.com/images/I/71fYk-McJwL.AC_UL480_FMwebp_QL65.jpg",
+      "stock": 4
+    },
+    {
+      "id": "28",
+      "name": "Diazepam",
+      "rate": 22,
+      "image": "https://m.media-amazon.com/images/I/71A6j1-kWTL.AC_UY327_FMwebp_QL65.jpg",
+      "stock": 5
+    },
+    {
+      "id": "22c9",
+      "name": "paracetamol",
+      "rate": "5",
+      "stock": "55",
+      "image": "https://m.media-amazon.com/images/I/81JbkDm0UjL._AC_UL480_FMwebp_QL65_.jpg"
+    }
+  ]
+}

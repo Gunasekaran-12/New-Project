@@ -1,0 +1,45 @@
+.dashboard-container {
+  transition: background-color 0.3s ease;
+}
+
+/* General styles for icons */
+.category-icon {
+  margin-right: 10px; /* Space between icon and text */
+  color: #1976d2; /* Default icon color */
+  transition: transform 0.3s ease;
+}
+
+.category-icon:hover {
+  transform: scale(1.2); /* Scale up on hover */
+}
+
+/* Light theme styles */
+.dashboard-container.light {
+  background-color: #f5f5f5; /* Light background color */
+}
+
+.dashboard-container.light .category-icon {
+  color: #1976d2; /* Primary color for light mode */
+}
+
+.dashboard-container.light h1,
+.dashboard-container.light h3,
+.dashboard-container.light h6 {
+  color: #333; /* Dark text for better contrast */
+}
+
+/* Dark theme styles */
+.dashboard-container.dark {
+  background-color: #424242; /* Dark background color */
+}
+
+.dashboard-container.dark .category-icon {
+  color: #90caf9; /* Lighter blue for dark mode */
+}
+
+.dashboard-container.dark h1,
+.dashboard-container.dark h3,
+.dashboard-container.dark h6,
+.dashboard-container.dark p {
+  color: white; /* White text for better contrast in dark mode */
+}

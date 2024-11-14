@@ -1,0 +1,30 @@
+.product-list {
+  padding: 20px; /* Add padding around the section */
+  background-color: black; /* Set background to black */
+  color: white; /* Set text color to white */
+}
+
+.card-actions {
+  padding: 16px;
+  display: flex;
+  justify-content: space-between; /* Space out button and badge */
+  align-items: center; /* Center items vertically */
+}
+
+.cart-controls {
+  display: flex;
+  align-items: center; /* Center items vertically */
+}
+
+.view-cart {
+  text-align: center; /* Center the View Cart button */
+  margin-top: 30px; /* Space above the button */
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .card-actions {
+    flex-direction: column; /* Stack items on smaller screens */
+    align-items: center; /* Center items horizontally */
+  }
+}

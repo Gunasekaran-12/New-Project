@@ -1,0 +1,22 @@
+.cart-summary {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    height: 100vh; /* Full height of the viewport */
+    background-color: #333; /* Dark background color */
+    color: white; /* White text for contrast */
+  }
+  
+  .cart-summary h4 {
+    margin-bottom: 20px; /* Space below title */
+  }
+  
+  .cart-summary button {
+    width: 200px; /* Set a consistent width for buttons */
+  }
+  
+  /* Optional: Add hover effects for buttons */
+  .cart-summary button:hover {
+    opacity: 0.9; /* Slightly fade buttons on hover */
+  }
